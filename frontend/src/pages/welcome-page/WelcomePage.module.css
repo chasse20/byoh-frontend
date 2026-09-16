@@ -1,0 +1,37 @@
+@value colors: "styles/colors.module.css";
+@value darkBodyTextColor from colors;
+
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+@value theme: "styles/theme.module.css";
+@value borderRadius from theme;
+
+.container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+
+	align-items: center;
+	padding-top: 72px;
+
+	color: darkBodyTextColor;
+	background-image: linear-gradient(
+		to right top,
+		#cbcbcb,
+		#d5d5d5,
+		#dfdfdf,
+		#eaeaea,
+		#f4f4f4
+	);
+}
+
+.container > h1 {
+	margin: 24px;
+	text-align: center;
+}
+
+.container > h4 {
+	margin: 0px 12px;
+	text-align: center;
+}

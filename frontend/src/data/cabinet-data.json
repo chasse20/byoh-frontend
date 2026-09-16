@@ -1,0 +1,720 @@
+[
+	{
+		"title": "Customization",
+		"tierIdKey": "cabinet-levels",
+		"sections": [
+			{
+				"id": "cabinet-levels",
+				"title": "Cabinet Level",
+				"options": [
+					{
+						"id": "cabinet-level-1",
+						"type": "tier-level",
+						"title": "I"
+					},
+					{
+						"id": "cabinet-level-2",
+						"type": "tier-level",
+						"title": "II"
+					},
+					{
+						"id": "cabinet-level-3",
+						"type": "tier-level",
+						"title": "III"
+					},
+					{
+						"id": "cabinet-level-4",
+						"type": "tier-level",
+						"title": "IV"
+					},
+					{
+						"id": "cabinet-level-5",
+						"type": "tier-level",
+						"title": "V"
+					},
+					{
+						"id": "cabinet-level-6",
+						"type": "tier-level",
+						"title": "VI"
+					}
+				]
+			},
+			{
+				"id": "cabinet-colors",
+				"title": "Cabinet Color",
+				"options": [
+					{
+						"id": "level-1-sinclair-birch-umber",
+						"type": "cabinet-color",
+						"title": "Sinclair Birch Umber",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-1"
+						]
+					},
+					{
+						"id": "level-1-sinclair-birch-saddle",
+						"type": "cabinet-color",
+						"title": "Sinclair Birch Saddle",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-1"
+						]
+					},
+					{
+						"id": "level-2-ellis-purestyle-colada",
+						"type": "cabinet-color",
+						"title": "Purestyle Colada",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2"
+						]
+					},
+					{
+						"id": "level-2-ellis-purestyle-stone-grey",
+						"type": "cabinet-color",
+						"title": "Ellis Purestyle Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2"
+						]
+					},
+					{
+						"id": "level-2-ellis-purestyle-white",
+						"type": "cabinet-color",
+						"title": "Ellis Purestyle White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2"
+						]
+					},
+					{
+						"id": "level-2-sinclair-birch-quill",
+						"type": "cabinet-color",
+						"title": "Sinclair Birch Quill",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2"
+						]
+					},
+					{
+						"id": "level-2-sinclair-birch-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Sinclair Birch Quill",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2"
+						]
+					},
+					{
+						"id": "level-3-glyn-colada",
+						"type": "cabinet-color",
+						"title": "Glyn Colada",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-glyn-quill",
+						"type": "cabinet-color",
+						"title": "Glyn Quill",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-glyn-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Glyn Sarsaparilla",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-glyn-stone-grey",
+						"type": "cabinet-color",
+						"title": "Glyn Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-winstead-colada",
+						"type": "cabinet-color",
+						"title": "Winstead Colada",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-winstead-quill",
+						"type": "cabinet-color",
+						"title": "Winstead Quill",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-winstead-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Winstead Sarsaparilla",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-3-winstead-stone-grey",
+						"type": "cabinet-color",
+						"title": "Winstead Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-3"
+						]
+					},
+					{
+						"id": "level-4-lillian-purestyle-admiral",
+						"type": "cabinet-color",
+						"title": "Lillian Purestyle Admiral",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-lillian-purestyle-colada",
+						"type": "cabinet-color",
+						"title": "Lillian Purestyle Colada",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-lillian-purestyle-stone-grey",
+						"type": "cabinet-color",
+						"title": "Lillian Purestyle Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-lillian-purestyle-white",
+						"type": "cabinet-color",
+						"title": "Lillian Purestyle White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-winstead-flagstone",
+						"type": "cabinet-color",
+						"title": "Winstead Flagstone",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-winstead-maple-quill",
+						"type": "cabinet-color",
+						"title": "Winstead Maple Quill",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-4-winstead-maple-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Winstead Maple Sarsaparilla",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-4"
+						]
+					},
+					{
+						"id": "level-5-durham-purestyle-admiral",
+						"type": "cabinet-color",
+						"title": "Durham Purestyle Admiral",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-durham-purestyle-greyhound",
+						"type": "cabinet-color",
+						"title": "Durham Purestyle Greyhound",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-durham-purestyle-stone-gray",
+						"type": "cabinet-color",
+						"title": "Durham Purestyle Stone Gray",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-durham-purestyle-white",
+						"type": "cabinet-color",
+						"title": "Durham Purestyle White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-maple-greyhound",
+						"type": "cabinet-color",
+						"title": "Maple Greyhound",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-windstead-maple-stone-grey",
+						"type": "cabinet-color",
+						"title": "Winstead Maple Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-5-winstead-maple-white",
+						"type": "cabinet-color",
+						"title": "Winstead Maple White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-5"
+						]
+					},
+					{
+						"id": "level-6-korbett-burlap",
+						"type": "cabinet-color",
+						"title": "Korbett Burlap",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-korbett-flagstone",
+						"type": "cabinet-color",
+						"title": "Korbett Flagstone",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-korbett-greyhound",
+						"type": "cabinet-color",
+						"title": "Korbett Greyhound",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-korbett-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Korbett Sarsaparilla",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-korbett-stone-grey",
+						"type": "cabinet-color",
+						"title": "Korbett Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-korbett-white",
+						"type": "cabinet-color",
+						"title": "Korbett White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-burlap",
+						"type": "cabinet-color",
+						"title": "Wentworth Burlap",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-flagstone",
+						"type": "cabinet-color",
+						"title": "Wentworth Flagstone",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-greyhound",
+						"type": "cabinet-color",
+						"title": "Wentworth Greyhound",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-sarsaparilla",
+						"type": "cabinet-color",
+						"title": "Wenworth Sarsaparilla",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-stone-grey",
+						"type": "cabinet-color",
+						"title": "Wentworth Stone Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "level-6-wentworth-white",
+						"type": "cabinet-color",
+						"title": "Wentworth White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-6"
+						]
+					}
+				]
+			},
+			{
+				"id": "cabinet-knobs",
+				"type": "subheader",
+				"title": "Cabinet Knobs",
+				"options": [
+					{
+						"id": "level-1-cabinet-knob-bronze",
+						"type": "cabinet-knob",
+						"title": "Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-1"
+						]
+					},
+					{
+						"id": "level-1-cabinet-knob-brushed-nickel",
+						"type": "cabinet-knob",
+						"title": "Brushed Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-1"
+						]
+					},
+					{
+						"id": "level-1-cabinet-knob-polished-nickel",
+						"type": "cabinet-knob",
+						"title": "Polished Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-1"
+						]
+					},
+					{
+						"id": "cabinet-knob-level-2-brushed-nickel",
+						"type": "cabinet-knob",
+						"title": "Brushed Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-knob-level-2-antique-nickel",
+						"type": "cabinet-knob",
+						"title": "Antique Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-knob-level-2-matte-black",
+						"type": "cabinet-knob",
+						"title": "Matte Black",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-knob-level-2-satin-bronze",
+						"type": "cabinet-knob",
+						"title": "Satin Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-knob-level-2-oil-rubbed-bronze",
+						"type": "cabinet-knob",
+						"title": "Oil Rubbed Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					}
+				]
+			},
+			{
+				"id": "cabinet-pulls",
+				"type": "subheader",
+				"title": "Cabinet Pulls",
+				"options": [
+					{
+						"id": "cabinet-pull-level-2-brushed-nickel",
+						"type": "cabinet-pull",
+						"title": "Brushed Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-level-2-antique-nickel",
+						"type": "cabinet-pull",
+						"title": "Antique Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-level-2-brushed-gold",
+						"type": "cabinet-pull",
+						"title": "Brushed Gold",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-oil-rubbed-bronze",
+						"type": "cabinet-pull",
+						"title": "Oil Rubbed Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-pipe-satin-bronze",
+						"type": "cabinet-pull",
+						"title": "Pipe Satin Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-pipe-oil-rubbed-bronze",
+						"type": "cabinet-pull",
+						"title": "Pipe Oil Rubbed Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-pipe-brushed-nickel",
+						"type": "cabinet-pull",
+						"title": "Pipe Brushed Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-pipe-matte-black",
+						"type": "cabinet-pull",
+						"title": "Pipe Matte Black",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-pipe-antique-nickel",
+						"type": "cabinet-pull",
+						"title": "Pipe Antique Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-polished-chrome",
+						"type": "cabinet-pull",
+						"title": "Contemporary Polished Chrome",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-antique-nickel",
+						"type": "cabinet-pull",
+						"title": "Contemporary Antique Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-brushed-gold",
+						"type": "cabinet-pull",
+						"title": "Contemporary Brushed Gold",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-oil-rubbed-bronze",
+						"type": "cabinet-pull",
+						"title": "Contemporary Oil Rubbed Bronze",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-matte-black",
+						"type": "cabinet-pull",
+						"title": "Contemporary Matte Black",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					},
+					{
+						"id": "cabinet-pull-contemporary-brushed-nickel",
+						"type": "cabinet-pull",
+						"title": "Contemporary Brushed Nickel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"cabinet-level-2",
+							"cabinet-level-3",
+							"cabinet-level-4",
+							"cabinet-level-5",
+							"cabinet-level-6"
+						]
+					}
+				]
+			}
+		]
+	}
+]

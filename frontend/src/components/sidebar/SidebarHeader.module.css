@@ -1,0 +1,52 @@
+@value colors: "styles/colors.module.css";
+@value primary, boxShadowColor, darkBodyTextColor from colors;
+
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+.mobile-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.laptop-header {
+	display: none;
+}
+
+.room-selector-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px;
+	/* background-color: red; */
+}
+
+.option-selector-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px;
+}
+
+.option-cycle-button {
+	margin: 0 12px;
+	padding: 12px;
+	background-color: transparent;
+	color: darkBodyTextColor;
+}
+
+@media only screen and (mobile-break-point) {
+}
+
+@media only screen and (tablet-break-point) {
+}
+
+@media only screen and (laptop-break-point) {
+	.mobile-header {
+		display: none;
+	}
+
+	.laptop-header {
+		display: flex;
+	}
+}

@@ -1,0 +1,11 @@
+@value colors: "styles/colors.module.css";
+@value darkBodyTextColor from colors;
+
+.page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+
+	color: darkBodyTextColor;
+}

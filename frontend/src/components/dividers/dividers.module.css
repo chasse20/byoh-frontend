@@ -1,0 +1,30 @@
+@value colors: "styles/colors.module.css";
+@value lightBodyTextColor, darkBodyTextColor, darkGrayColor, lightGrayColor from colors;
+
+@value theme: "styles/theme.module.css";
+@value borderRadius from theme;
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin-bottom: 6px;
+	padding: 6px;
+	border-radius: borderRadius;
+
+	background-color: darkGrayColor;
+	color: lightBodyTextColor;
+}
+
+.sub-section {
+	width: 100%;
+	padding: 6px;
+	margin-bottom: 6px;
+
+	background-color: lightGrayColor;
+	color: darkBodyTextColor;
+
+	border-radius: borderRadius;
+}

@@ -1,0 +1,28 @@
+@value colors: "styles/colors.module.css";
+@value primary from colors;
+
+@value theme: "styles/theme.module.css";
+@value borderRadius from theme;
+
+.container {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 12px;
+	max-width: 80px;
+	min-width: 80px;
+	text-align: center;
+}
+
+.image {
+	border-radius: borderRadius;
+	object-fit: cover;
+	height: 64px;
+	width: 64px;
+}
+
+.selected {
+	border: 4px solid primary;
+	box-sizing: border-box;
+}

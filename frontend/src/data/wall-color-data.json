@@ -1,0 +1,174 @@
+[
+	{
+		"title": "Customization",
+		"tierIdKey": "paint-color-levels",
+		"sections": [
+			{
+				"id": "paint-color-levels",
+				"title": "Color Level",
+				"options": [
+					{
+						"id": "paint-color-level-1",
+						"type": "tier-level",
+						"title": "I"
+					},
+					{
+						"id": "paint-color-level-2",
+						"type": "tier-level",
+						"title": "II"
+					},
+					{
+						"id": "paint-color-level-3",
+						"type": "tier-level",
+						"title": "III"
+					}
+				]
+			},
+			{
+				"id": "subheader-cabinet-level",
+				"title": "Color Swatches",
+				"options": [
+					{
+						"id": "paint-level-1-super-white",
+						"type": "color-swatch",
+						"title": "Super White",
+						"color": "#f2f3ef",
+						"tierIds": [
+							"paint-color-level-1"
+						]
+					},
+					{
+						"id": "color-level-1-white-heron",
+						"type": "color-swatch",
+						"title": "White Heron",
+						"color": "#f1f2eb",
+						"tierIds": [
+							"paint-color-level-1"
+						]
+					},
+					{
+						"id": "color-level-1-shoreline",
+						"type": "color-swatch",
+						"title": "Shoreline",
+						"color": "#dad9d4",
+						"tierIds": [
+							"paint-color-level-1"
+						]
+					},
+					{
+						"id": "color-level-1-silver-fox",
+						"type": "color-swatch",
+						"title": "Silver Fox",
+						"color": "#b9b2a8",
+						"tierIds": [
+							"paint-color-level-1",
+							"paint-color-level-2"
+						]
+					},
+					{
+						"id": "color-level-2-boothbay-gray",
+						"type": "color-swatch",
+						"title": "Boothbay Gray",
+						"color": "#abb3b1",
+						"tierIds": [
+							"paint-color-level-1",
+							"paint-color-level-2"
+						]
+					},
+					{
+						"id": "color-level-2-van-deusen-blue",
+						"type": "color-swatch",
+						"title": "Van Deusen Blue",
+						"color": "#495c6f",
+						"tierIds": [
+							"paint-color-level-2"
+						]
+					},
+					{
+						"id": "color-level-2-french-press",
+						"type": "color-swatch",
+						"title": "French Press",
+						"color": "#604e44",
+						"tierIds": [
+							"paint-color-level-1",
+							"paint-color-level-2"
+						]
+					},
+					{
+						"id": "color-level-2-dry-sage",
+						"type": "color-swatch",
+						"title": "Dry Sage",
+						"color": "#a4a085",
+						"tierIds": [
+							"paint-color-level-1",
+							"paint-color-level-2"
+						]
+					},
+					{
+						"id": "color-level-3-tarrytown-green",
+						"type": "color-swatch",
+						"title": "Tarrytown Green",
+						"color": "#425853",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-smoke",
+						"type": "color-swatch",
+						"title": "Smoke",
+						"color": "#bbc9ca",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-wolf-gray",
+						"type": "color-swatch",
+						"title": "Wolf Gray",
+						"color": "#737d84",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-caliente",
+						"type": "color-swatch",
+						"title": "Caliente",
+						"color": "#8b2829",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-classic-burgundy",
+						"type": "color-swatch",
+						"title": "Classic Burgundy",
+						"color": "#6a191b",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-vintage-wine",
+						"type": "color-swatch",
+						"title": "Vintage Wine",
+						"color": "#55474a",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					},
+					{
+						"id": "color-level-3-proposal",
+						"type": "color-swatch",
+						"title": "Proposal",
+						"color": "#e9dad5",
+						"tierIds": [
+							"paint-color-level-3"
+						]
+					}
+				]
+			}
+		]
+	}
+]

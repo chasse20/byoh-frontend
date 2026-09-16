@@ -1,0 +1,95 @@
+[
+	{
+		"id": "kitchen",
+		"name": "Kitchen",
+		"options": [
+			{
+				"id": "cabinet",
+				"name": "Cabinets",
+				"iconUrl": "/icons/cabinet-icon-sm.svg"
+			},
+			{
+				"id": "flooring",
+				"name": "Floors",
+				"iconUrl": "/icons/flooring-icon-sm.svg"
+			},
+			{
+				"id": "counter",
+				"name": "Countertops",
+				"iconUrl": "/icons/color-swatch-icon-sm.svg"
+			},
+			{
+				"id": "backsplash",
+				"name": "Backsplash",
+				"iconUrl": "/icons/flooring-icon-sm.svg"
+			},
+			{
+				"id": "other",
+				"name": "Other",
+				"iconUrl": "/icons/stovetop-icon-sm.svg"
+			},
+			{
+				"id": "fixtures",
+				"name": "Fixtures",
+				"iconUrl": "/icons/fixtures-icon-sm.svg"
+			}
+		]
+	},
+	{
+		"id": "master-bath",
+		"name": "Master Bath",
+		"options": [
+			{
+				"id": "cabinet",
+				"name": "Cabinets",
+				"iconUrl": "/icons/cabinet-icon-sm.svg"
+			},
+			{
+				"id": "bathroom-tile",
+				"name": "Tile",
+				"iconUrl": "/icons/flooring-icon-sm.svg"
+			},
+			{
+				"id": "counter",
+				"name": "Countertops",
+				"iconUrl": "/icons/color-swatch-icon-sm.svg"
+			},
+			{
+				"id": "fixtures",
+				"name": "Fixtures",
+				"iconUrl": "/icons/fixtures-icon-sm.svg"
+			},
+			{
+				"id": "other",
+				"name": "Other",
+				"iconUrl": "/icons/stovetop-icon-sm.svg"
+			}
+		]
+	},
+	{
+		"id": "master-bed",
+		"name": "Master Bed",
+		"options": [
+			{
+				"id": "flooring",
+				"name": "Floors",
+				"iconUrl": "/icons/flooring-icon-sm.svg"
+			},
+			{
+				"id": "wall-color",
+				"name": "Wall Color",
+				"iconUrl": "/icons/color-swatch-icon-sm.svg"
+			},
+			{
+				"id": "fixtures",
+				"name": "Fixtures",
+				"iconUrl": "/icons/fixtures-icon-sm.svg"
+			},
+			{
+				"id": "other",
+				"name": "Other",
+				"iconUrl": "/icons/stovetop-icon-sm.svg"
+			}
+		]
+	}
+]

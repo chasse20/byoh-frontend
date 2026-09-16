@@ -1,0 +1,27 @@
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+.content {
+	display: flex;
+	flex-direction: row;
+	/* margin-bottom: 12px; */
+	/* flex-wrap: wrap; */
+}
+
+@media only screen and (mobile-break-point) {
+	.content {
+		display: none;
+	}
+}
+
+@media only screen and (tablet-break-point) {
+	.content {
+		display: none;
+	}
+}
+
+@media only screen and (laptop-break-point) {
+	.content {
+		display: flex;
+	}
+}

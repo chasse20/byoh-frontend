@@ -1,0 +1,52 @@
+@value colors: "styles/colors.module.css";
+@value whiteColor, middleYellow, boxShadowColor, lightBodyTextColor, darkBodyTextColor, vmDarkBlue from colors;
+
+.container {
+	composes: tile-box-shadow from 'styles/shadows.module.css';
+	height: 112px;
+	background-color: whiteColor;
+	border-radius: 12px;
+	color: darkBodyTextColor;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+
+.title-bg {
+	display: flex;
+	flex-direction: row;
+	min-width: 100px;
+	color: lightBodyTextColor;
+	background-color: vmDarkBlue;
+	padding: 6px 12px;
+	border-radius: 12px 12px 0 0;
+}
+
+.title {
+	margin-right: 12px;
+}
+
+.active {
+	color: darkBodyTextColor;
+	background-color: middleYellow;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+}
+
+.status-indicator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: darkBodyTextColor;
+	height: 24px;
+	width: 24px;
+	margin-left: auto;
+	border-radius: 50%;
+	background-color: whiteColor;
+}

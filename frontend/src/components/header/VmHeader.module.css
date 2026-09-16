@@ -1,0 +1,30 @@
+﻿@value colors: "styles/colors.module.css";
+@value blackColor from colors;
+
+@value headerPadding: 12px;
+
+.vm-header-bar {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 40px;
+	background-color: blackColor;
+	justify-content: space-between;
+
+	z-index: 100;
+}
+
+.vm-logo {
+	padding: headerPadding;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	padding-right: 24px;
+}
+
+.vm-right-corner {
+	display: flex;
+	align-items: center;
+}

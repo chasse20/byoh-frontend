@@ -1,0 +1,6 @@
+@value colors: "styles/colors.module.css";
+@value boxShadowColor from colors;
+
+.tile-box-shadow {
+	box-shadow: 4px 4px 4px boxShadowColor, -1px -1px 8px boxShadowColor;
+}

@@ -1,0 +1,25 @@
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+.page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100vw;
+}
+
+.content {
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100vw;
+	background-color: #c7c7c7;
+}
+
+@media only screen and (laptop-break-point) {
+	.content {
+		padding: 12px;
+		width: calc(100% - 24px);
+	}
+}

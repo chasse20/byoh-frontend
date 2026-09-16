@@ -1,0 +1,3 @@
+@value mobile-break-point: min-width: 360px;
+@value tablet-break-point: min-width: 768px;
+@value laptop-break-point: min-width: 1366px;

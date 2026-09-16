@@ -1,0 +1,18 @@
+@value colors: "styles/colors.module.css";
+@value darkGrayColor, vmDarkBlue from colors;
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-width: 186px;
+}
+
+.pricing-title {
+	margin-right: 12px;
+	color: darkGrayColor;
+}
+
+.total-title {
+	margin-right: 12px;
+	color: vmDarkBlue;
+}

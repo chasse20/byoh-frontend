@@ -1,0 +1,41 @@
+@value colors: "styles/colors.module.css";
+@value whiteColor, lightBodyTextColor, darkBodyTextColor, vmDarkBlue from colors;
+
+@value theme: "styles/theme.module.css";
+@value borderRadius from theme;
+
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+	height: 32px;
+	padding: 4px;
+
+	background-color: vmDarkBlue;
+	color: lightBodyTextColor;
+
+	border-top-right-radius: borderRadius;
+	border-top-left-radius: borderRadius;
+}
+
+@media only screen and (tablet-break-point) {
+	.modal-header {
+		height: 32px;
+		padding: 12px;
+	}
+}
+
+@media only screen and (laptop-break-point) {
+	.modal-header {
+		height: 32px;
+		padding: 12px;
+
+		border-top-right-radius: borderRadius;
+		border-top-left-radius: borderRadius;
+	}
+}

@@ -1,0 +1,120 @@
+[
+	{
+		"title": "Customization",
+		"tierIdKey": "backsplash-levels",
+		"sections": [
+			{
+				"id": "backsplash-levels",
+				"title": "Backsplash Level",
+				"options": [
+					{
+						"id": "backsplash-level-1",
+						"type": "tier-level",
+						"title": "I"
+					},
+					{
+						"id": "backsplash-level-2",
+						"type": "tier-level",
+						"title": "II"
+					}
+				]
+			},
+			{
+				"id": "backsplashes",
+				"title": "Backsplashes",
+				"options": [
+					{
+						"id": "level-1-color-wheel-artic-white",
+						"type": "backsplash",
+						"title": "Arctic White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-1"
+						]
+					},
+					{
+						"id": "level-2-brick-alcove",
+						"type": "backsplash",
+						"title": "Brick Alcove",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-elect-white",
+						"type": "backsplash",
+						"title": "Elect White",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-mesmerist-trance",
+						"type": "backsplash",
+						"title": "Trance",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-mesmerist-whimsy",
+						"type": "backsplash",
+						"title": "Whimsy",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-mythology-arabesque-olympus",
+						"type": "backsplash",
+						"title": "Olympus",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-mythology-arabesque-santorini",
+						"type": "backsplash",
+						"title": "Santorini",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-stagecraft-black",
+						"type": "backsplash",
+						"title": "Stagecraft Black",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-stagecraft-desert-grey",
+						"type": "backsplash",
+						"title": "Stagecraft Desert Grey",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					},
+					{
+						"id": "level-2-stagecraft-galaxy",
+						"type": "backsplash",
+						"title": "Stagecraft Galaxy",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"backsplash-level-2"
+						]
+					}
+				]
+			}
+		]
+	}
+]

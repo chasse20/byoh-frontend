@@ -1,0 +1,10 @@
+{
+  "name": "byoh-web",
+  "version": "2.0.0",
+  "description": "Build Your Own Home Node",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.16.2"
+  }
+}

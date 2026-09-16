@@ -1,0 +1,48 @@
+{
+	"title": "Designer Themes",
+	"themes": [
+		{
+			"id": "designer-theme-1",
+			"type": "designer-theme",
+			"title": "Package 1",
+			"imageUrl": "/images/material-placeholder.svg",
+			"options": [
+				{
+					"id": "level-2",
+					"type": "cabinet-level",
+					"title": "II"
+				},
+				{
+					"id": "color-2",
+					"type": "color-swatch",
+					"title": "Green",
+					"color": "green"
+				},
+				{
+					"id": "cabinet-color-2",
+					"type": "cabinet-color",
+					"title": "Dark Brown",
+					"imageUrl": "/images/material-placeholder.svg"
+				}
+			]
+		},
+		{
+			"id": "designer-theme-2",
+			"type": "designer-theme",
+			"title": "Package 2",
+			"imageUrl": "/images/material-placeholder.svg"
+		},
+		{
+			"id": "designer-theme-3",
+			"type": "designer-theme",
+			"title": "Package 3",
+			"imageUrl": "/images/material-placeholder.svg"
+		},
+		{
+			"id": "designer-theme-4",
+			"type": "designer-theme",
+			"title": "Package 4",
+			"imageUrl": "/images/material-placeholder.svg"
+		}
+	]
+}

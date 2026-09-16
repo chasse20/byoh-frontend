@@ -1,0 +1,66 @@
+/* TODO Duplicate of SidebarFooter at the moment */
+/* TODO Consolidate please! */
+
+@value colors: "styles/colors.module.css";
+@value primary, boxShadowColor, darkBodyTextColor from colors;
+
+@value breakpoints: "styles/breakpoints.module.css";
+@value mobile-break-point, tablet-break-point, laptop-break-point from breakpoints;
+
+@value theme: "styles/theme.module.css";
+@value borderRadius from theme;
+
+.mobile-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+.laptop-footer {
+	display: none;
+}
+
+.previous-step-button {
+	background-color: transparent;
+	text-decoration: underline;
+	color: darkBodyTextColor;
+}
+
+.container {
+	display: flex;
+	flex: 1;
+	padding: 12px 6px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.progress-bar-container {
+	display: flex;
+	flex: 1;
+	background-color: #efd386;
+	height: 12px;
+}
+
+.progress-bar {
+	height: 8px;
+	background-color: primary;
+}
+
+@media only screen and (mobile-break-point) {
+}
+
+@media only screen and (tablet-break-point) {
+}
+
+@media only screen and (laptop-break-point) {
+	.mobile-footer {
+		display: none;
+	}
+
+	.laptop-footer {
+		display: block;
+		height: 12px;
+		border-bottom-right-radius: borderRadius;
+		border-bottom-left-radius: borderRadius;
+	}
+}

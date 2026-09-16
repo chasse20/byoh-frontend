@@ -1,0 +1,134 @@
+[
+	{
+		"title": "Customization",
+		"tierIdKey": "counter-top-levels",
+		"sections": [
+			{
+				"id": "counter-top-levels",
+				"title": "Counter Top Level",
+				"options": [
+					{
+						"id": "counter-top-level-1",
+						"type": "tier-level",
+						"title": "I"
+					},
+					{
+						"id": "counter-top-level-2",
+						"type": "tier-level",
+						"title": "II"
+					},
+					{
+						"id": "counter-top-level-3",
+						"type": "tier-level",
+						"title": "III"
+					}
+				]
+			},
+			{
+				"id": "counter-tops",
+				"title": "Counter Tops",
+				"options": [
+					{
+						"id": "level-1-bianco-diamante-granite",
+						"type": "counter-top",
+						"title": "Bianco Diamante Granite",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-1"
+						]
+					},
+					{
+						"id": "level-1-new-caledonia-granite",
+						"type": "counter-top",
+						"title": "New Caledonia Granite",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-1"
+						]
+					},
+					{
+						"id": "level-2-bianco-pepper-quartz",
+						"type": "counter-top",
+						"title": "Bianco Pepper Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-1"
+						]
+					},
+					{
+						"id": "level-2-manhattan-gray-quartz",
+						"type": "counter-top",
+						"title": "Manhattan Gray Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-2"
+						]
+					},
+					{
+						"id": "level-2-meridian-gray-quartz",
+						"type": "counter-top",
+						"title": "Meridian Gray Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-2"
+						]
+					},
+					{
+						"id": "level-2-snow-white-quartz",
+						"type": "counter-top",
+						"title": "Snow White Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-2"
+						]
+					},
+					{
+						"id": "level-3-calacatta-laza-quartz",
+						"type": "counter-top",
+						"title": "Calcatta Laza Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-3"
+						]
+					},
+					{
+						"id": "level-3-carrara-lumos-quartz",
+						"type": "counter-top",
+						"title": "Carra Lumos Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-3"
+						]
+					},
+					{
+						"id": "level-3-matte-fossil-gray-quartz",
+						"type": "counter-top",
+						"title": "Matte Fossil Gray Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-3"
+						]
+					},
+					{
+						"id": "level-3-soapstone-metropolis-quartz",
+						"type": "counter-top",
+						"title": "Soapstone Metropolis Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-3"
+						]
+					},
+					{
+						"id": "level-3-soapstone-mist-quartz",
+						"type": "counter-top",
+						"title": "Soapstone Mist Quartz",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"counter-top-level-3"
+						]
+					}
+				]
+			}
+		]
+	}
+]

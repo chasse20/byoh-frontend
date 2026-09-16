@@ -1,0 +1,144 @@
+[
+	{
+		"title": "Customization",
+		"tierIdKey": "flooring-tier-levels",
+		"sections": [
+			{
+				"id": "flooring-tier-levels",
+				"title": "Flooring Level",
+				"options": [
+					{
+						"id": "flooring-level-1",
+						"type": "tier-level",
+						"title": "I"
+					},
+					{
+						"id": "flooring-level-2",
+						"type": "tier-level",
+						"title": "II"
+					}
+				]
+			},
+			{
+				"id": "flooring",
+				"title": "Luxury Vinyl Plank",
+				"options": [
+					{
+						"id": "level-1-lvp-boardwalk",
+						"type": "flooring-color",
+						"title": "Boardwalk",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-lvp-castaway",
+						"type": "flooring-color",
+						"title": "Castaway",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-lvp-ripped-pine",
+						"type": "flooring-color",
+						"title": "Ripped Pine",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-2-lvp-cut-pine",
+						"type": "flooring-color",
+						"title": "Light Brown",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-2"
+						]
+					},
+					{
+						"id": "level-2-lvp-whitefill-oak",
+						"type": "flooring-color",
+						"title": "Light Brown",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-2"
+						]
+					}
+				]
+			},
+			{
+				"id": "flooring",
+				"title": "Hardwood",
+				"options": [
+					{
+						"id": "level-1-hardwood-worthing-white-oak-8in-pembridge",
+						"type": "flooring-color",
+						"title": "Pembridge",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-worthing-white-oak-8in-st-charles",
+						"type": "flooring-color",
+						"title": "St. Charles",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-worthing-white-oak-8in-holland-plank",
+						"type": "flooring-color",
+						"title": "Holland Plank",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-oasis-oak-38thin-fireside",
+						"type": "flooring-color",
+						"title": "Fireside",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-majestic-pecan-7in-hazel",
+						"type": "flooring-color",
+						"title": "Hazel",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-impressions-white-oak-7in-terrain",
+						"type": "flooring-color",
+						"title": "Terrain",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					},
+					{
+						"id": "level-1-hardwood-majestic-pecan-7in-flaxen",
+						"type": "flooring-color",
+						"title": "Flaxen",
+						"imageUrl": "/images/material-placeholder.svg",
+						"tierIds": [
+							"flooring-level-1"
+						]
+					}
+				]
+			}
+		]
+	}
+]
