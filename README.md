@@ -19,6 +19,8 @@ I worked alongside a larger 3D team and was responsible for the overall technica
 - Login/session integration with dynamically allocated GPU instances
 - Analytics and client telemetry integration
 
+![BYOH system flow](docs/system-flow.png)
+
 ## Public-copy scope
 
 This is a historical code sample, not the complete BYOH platform or a standalone production deployment. Production credentials, service endpoints, telemetry identifiers, licensed fonts, design-source files, product imagery, deployment configuration, and internal Git history have been removed or replaced with non-production examples.
